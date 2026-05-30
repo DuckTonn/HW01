@@ -25,7 +25,7 @@ TP. Hồ Chí Minh, 2026
   Posting](https://www.topcv.vn/viec-lam/qc-mid-senior/2161770.html?ta_source=JobSearchList_LinkDetail&u_sr_id=w45WaC0TZFZxne0FBqt6Aa9sHyhyB7wjJvT9rhVk_1779974704)
 
   <figure id="fig:job_01" data-latex-placement="htbp">
-  <img src="./job_01.png" style="width:85.0%" />
+  <img src="./04_Job_Postings/job_01.png" style="width:85.0%" />
   <figcaption>Ảnh chụp màn hình tin tuyển dụng QC Mid-Senior</figcaption>
   </figure>
 
@@ -90,7 +90,7 @@ TP. Hồ Chí Minh, 2026
   Posting](https://www.topcv.vn/viec-lam/chuyen-vien-kiem-thu-phan-mem-tester/1713391.html?ta_source=JobSuggestInSearchListNoResult_LinkDetail&u_sr_id=5blA0GD41B3bPDsxmhni2QC1IE9qhkONUFHc7dp4_1779955919)
 
   <figure id="fig:job_02" data-latex-placement="htbp">
-  <img src="./job_02.png" style="width:85.0%" />
+  <img src="./04_Job_Postings/job_02.png" style="width:85.0%" />
   <figcaption>Ảnh chụp màn hình tin tuyển dụng Chuyên Viên Kiểm Thử Phần
   Mềm / Tester</figcaption>
   </figure>
@@ -153,7 +153,7 @@ TP. Hồ Chí Minh, 2026
   Posting](https://www.topcv.vn/viec-lam/automation-manual-tester-du-an-ai-giao-duc-nghi-thu-7-chu-nhat-3-nam-kinh-nghiem-thu-nhap-15-30-trieu-tai-ha-noi/2164219.html?ta_source=ButtonCopyToClipboardInJobDetail&u_sr_id=w45WaC0TZFZxne0FBqt6Aa9sHyhyB7wjJvT9rhVk_1779979702)
 
   <figure id="fig:job_03" data-latex-placement="htbp">
-  <img src="./job_03.png" style="width:85.0%" />
+  <img src="./04_Job_Postings/job_03.png" style="width:85.0%" />
   <figcaption>Ảnh chụp màn hình tin tuyển dụng Automation/Manual Tester -
   Dự Án AI Giáo Dục</figcaption>
   </figure>
@@ -258,7 +258,7 @@ TP. Hồ Chí Minh, 2026
   Posting](https://www.topcv.vn/viec-lam/nhan-vien-qc-tester-phan-mem-web-tester/2149736.html?ta_source=JobSearchList_LinkDetail&u_sr_id=w45WaC0TZFZxne0FBqt6Aa9sHyhyB7wjJvT9rhVk_1779976920)
 
   <figure id="fig:job_04" data-latex-placement="htbp">
-  <img src="./job_04.png" style="width:85.0%" />
+  <img src="./04_Job_Postings/job_04.png" style="width:85.0%" />
   <figcaption>Ảnh chụp màn hình tin tuyển dụng Nhân Viên QC / Tester Phần
   Mềm / Web Tester</figcaption>
   </figure>
@@ -323,7 +323,7 @@ TP. Hồ Chí Minh, 2026
   Posting](https://vn.indeed.com/viewjob?jk=e75796f042d47946&from=shareddesktop_copy)
 
   <figure id="fig:job_05" data-latex-placement="htbp">
-  <img src="./job_05.png" style="width:85.0%" />
+  <img src="./04_Job_Postings/job_05.png" style="width:85.0%" />
   <figcaption>Ảnh chụp màn hình tin tuyển dụng Lead QC
   Engineer</figcaption>
   </figure>
@@ -415,7 +415,7 @@ TP. Hồ Chí Minh, 2026
   Posting](https://www.topcv.vn/viec-lam/qa-engineerdata-platform-aws-etl/2149906.html)
 
   <figure id="fig:job_06" data-latex-placement="htbp">
-  <img src="./job_06.png" style="width:85.0%" />
+  <img src="./04_Job_Postings/job_06.png" style="width:85.0%" />
   <figcaption>Ảnh chụp màn hình tin tuyển dụng QA Engineer-Data Platform
   (AWS, ETL)</figcaption>
   </figure>
@@ -495,7 +495,7 @@ TP. Hồ Chí Minh, 2026
   Posting](https://www.topcv.vn/viec-lam/tester-manual-automation-thu-nhap-15-20-trieu-thang/2169805.html)
 
   <figure id="fig:job_07" data-latex-placement="htbp">
-  <img src="./job_07.png" style="width:85.0%" />
+  <img src="./04_Job_Postings/job_07.png" style="width:85.0%" />
   <figcaption>Ảnh chụp màn hình tin tuyển dụng Tester
   (Manual/Automation)</figcaption>
   </figure>
@@ -547,7 +547,7 @@ TP. Hồ Chí Minh, 2026
   Posting](https://vn.indeed.com/viewjob?jk=0116bce400f25597&from=shareddesktop_copy)
 
   <figure id="fig:job_08" data-latex-placement="htbp">
-  <img src="./job_08.png" style="width:85.0%" />
+  <img src="./04_Job_Postings/job_08.png" style="width:85.0%" />
   <figcaption>Ảnh chụp màn hình tin tuyển dụng QA/QC Engineer (Exp
   AI)</figcaption>
   </figure>
@@ -610,7 +610,7 @@ TP. Hồ Chí Minh, 2026
   Posting](https://vn.indeed.com/viewjob?jk=2426ad9ea8b817d2&from=shareddesktop_copy)
 
   <figure id="fig:job_09" data-latex-placement="htbp">
-  <img src="./job_09.png" style="width:85.0%" />
+  <img src="./04_Job_Postings/job_09.png" style="width:85.0%" />
   <figcaption>Ảnh chụp màn hình tin tuyển dụng Mid/Senior Automation QC
   (Playwright)</figcaption>
   </figure>
@@ -734,7 +734,7 @@ TP. Hồ Chí Minh, 2026
   Posting](https://vn.indeed.com/viewjob?jk=ce4219771cae5f6f&from=shareddesktop_copy)
 
   <figure id="fig:job_10" data-latex-placement="htbp">
-  <img src="./job_10.png" style="width:85.0%" />
+  <img src="./04_Job_Postings/job_10.png" style="width:85.0%" />
   <figcaption>Ảnh chụp màn hình tin tuyển dụng Senior Quality Engineer,
   VNGGames</figcaption>
   </figure>
