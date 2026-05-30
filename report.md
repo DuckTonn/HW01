@@ -1,25 +1,30 @@
-:::: titlepage
-**ĐẠI HỌC QUỐC GIA THÀNH PHỐ HỒ CHÍ MINH**\
-**TRƯỜNG ĐẠI HỌC KHOA HỌC TỰ NHIÊN**\
-**KHOA CÔNG NGHỆ THÔNG TIN**\
+<center>
 
-**BÁO CÁO HW01**\
+# **ĐẠI HỌC QUỐC GIA THÀNH PHỐ HỒ CHÍ MINH**
+## **TRƯỜNG ĐẠI HỌC KHOA HỌC TỰ NHIÊN**
+### **KHOA CÔNG NGHỆ THÔNG TIN**
 
-**Môn học:** Kiểm thử phần mềm\
-**Lớp:** 23KTPM2\
+<br>
 
-::: flushright
-**Sinh viên thực hiện:**\
-Phạm Đức Toàn\
-MSSV: 23127540\
-:::
+### **BÁO CÁO HW01**
+**Môn học:** Kiểm thử phần mềm
+**Lớp:** 23KTPM2  
+**MSSV:** 23127540  
+**Sinh viên thực hiện:** Phạm Đức Toàn  
+
+</center>
+
+<br>
+
+<div align="right">
 
 TP. Hồ Chí Minh, 2026
-::::
 
-# Requirement 1 - QA/QC Job Market 2026+
+</div>
 
-## QC Mid-Senior
+# 1 Requirement 1 - Thị trường việc làm QA/QC 2026+
+
+## 1.1 QC Mid-Senior
 
 - **Đường dẫn:** [Job
   Posting](https://www.topcv.vn/viec-lam/qc-mid-senior/2161770.html?ta_source=JobSearchList_LinkDetail&u_sr_id=w45WaC0TZFZxne0FBqt6Aa9sHyhyB7wjJvT9rhVk_1779974704)
@@ -84,7 +89,7 @@ TP. Hồ Chí Minh, 2026
   Copilot). Tuy nhiên công việc vẫn cần tư duy logic và phối hợp với
   Dev/BA nên QA thủ công chưa bị thay thế hoàn toàn.
 
-## Chuyên Viên Kiểm Thử Phần Mềm / Tester
+## 1.2 Chuyên Viên Kiểm Thử Phần Mềm / Tester
 
 - **Đường dẫn:** [Job
   Posting](https://www.topcv.vn/viec-lam/chuyen-vien-kiem-thu-phan-mem-tester/1713391.html?ta_source=JobSuggestInSearchListNoResult_LinkDetail&u_sr_id=5blA0GD41B3bPDsxmhni2QC1IE9qhkONUFHc7dp4_1779955919)
@@ -147,7 +152,7 @@ TP. Hồ Chí Minh, 2026
   lai cần biết sử dụng AI tools để tăng tốc kiểm thử thay vì chỉ test
   thủ công.
 
-## Automation/Manual Tester - Dự Án AI Giáo Dục
+## 1.3 Automation/Manual Tester - Dự Án AI Giáo Dục
 
 - **Đường dẫn:** [Job
   Posting](https://www.topcv.vn/viec-lam/automation-manual-tester-du-an-ai-giao-duc-nghi-thu-7-chu-nhat-3-nam-kinh-nghiem-thu-nhap-15-30-trieu-tai-ha-noi/2164219.html?ta_source=ButtonCopyToClipboardInJobDetail&u_sr_id=w45WaC0TZFZxne0FBqt6Aa9sHyhyB7wjJvT9rhVk_1779979702)
@@ -252,7 +257,7 @@ TP. Hồ Chí Minh, 2026
   AI rất mạnh. Vai trò QA đang chuyển dần từ manual sang AI-assisted
   testing và automation thông minh.
 
-## Nhân Viên QC / Tester Phần Mềm / Web Tester
+## 1.4 Nhân Viên QC / Tester Phần Mềm / Web Tester
 
 - **Đường dẫn:** [Job
   Posting](https://www.topcv.vn/viec-lam/nhan-vien-qc-tester-phan-mem-web-tester/2149736.html?ta_source=JobSearchList_LinkDetail&u_sr_id=w45WaC0TZFZxne0FBqt6Aa9sHyhyB7wjJvT9rhVk_1779976920)
@@ -317,7 +322,7 @@ TP. Hồ Chí Minh, 2026
   automation testing, đặc biệt phát hiện lỗi giao diện và sinh test
   script. Cần thích nghi với AI Testing để giữ lợi thế.
 
-## Lead QC Engineer
+## 1.5 Lead QC Engineer
 
 - **Đường dẫn:** [Job
   Posting](https://vn.indeed.com/viewjob?jk=e75796f042d47946&from=shareddesktop_copy)
@@ -409,7 +414,7 @@ TP. Hồ Chí Minh, 2026
   hệ mới lấy AI làm trung tâm. QA chuyển sang vai trò quản lý hệ thống
   AI testing và pipeline CI/CD.
 
-## QA Engineer-Data Platform (AWS, ETL)
+## 1.6 QA Engineer-Data Platform (AWS, ETL)
 
 - **Đường dẫn:** [Job
   Posting](https://www.topcv.vn/viec-lam/qa-engineerdata-platform-aws-etl/2149906.html)
@@ -489,7 +494,7 @@ TP. Hồ Chí Minh, 2026
   liệu, phát hiện bất thường và tối ưu automation test cho ETL pipeline,
   nhưng xác minh business logic vẫn cần chuyên môn QA sâu.
 
-## Tester (Manual/Automation)
+## 1.7 Tester (Manual/Automation)
 
 - **Đường dẫn:** [Job
   Posting](https://www.topcv.vn/viec-lam/tester-manual-automation-thu-nhap-15-20-trieu-thang/2169805.html)
@@ -541,7 +546,7 @@ TP. Hồ Chí Minh, 2026
   code trực tiếp được đề cập trong JD. Tester phải đánh giá và validate
   chất lượng code do chính AI sinh ra.
 
-## QA/QC Engineer (Exp AI)
+## 1.8 QA/QC Engineer (Exp AI)
 
 - **Đường dẫn:** [Job
   Posting](https://vn.indeed.com/viewjob?jk=0116bce400f25597&from=shareddesktop_copy)
@@ -604,7 +609,7 @@ TP. Hồ Chí Minh, 2026
   nhiều hơn vào việc đánh giá chất lượng đầu ra của các mô hình LLM và
   RAG thay vì chỉ test phần mềm truyền thống.
 
-## Mid/Senior Automation QC (Playwright)
+## 1.9 Mid/Senior Automation QC (Playwright)
 
 - **Đường dẫn:** [Job
   Posting](https://vn.indeed.com/viewjob?jk=2426ad9ea8b817d2&from=shareddesktop_copy)
@@ -728,7 +733,7 @@ TP. Hồ Chí Minh, 2026
   tích hợp thẳng vào pipeline kiểm thử để cải thiện coverage và tối ưu
   workflow.
 
-## Senior Quality Engineer, VNGGames
+## 1.10 Senior Quality Engineer, VNGGames
 
 - **Đường dẫn:** [Job
   Posting](https://vn.indeed.com/viewjob?jk=ce4219771cae5f6f&from=shareddesktop_copy)
@@ -790,3 +795,348 @@ TP. Hồ Chí Minh, 2026
 - **Ảnh hưởng của AI đến công việc này:** Kỹ sư chất lượng hiện đại cần
   kết hợp automation, CI/CD và AI tools để nâng cao hiệu quả kiểm thử
   trong quy trình QA.
+
+# Requirement 2 - 20 Software Defects 2022-2026
+
+## 2.1 CrowdStrike Falcon Sensor Linux Kernel Panic (2024)
+
+- **Nguồn:** [KB
+  CIQ](https://kb.ciq.com/article/rocky-linux/rl-kernel-panic-crowdstrike-falcon)
+
+- **Mô tả:** Phần mềm Falcon Sensor gây kernel panic trên Linux do lỗi
+  memory corruption trong module kernel.
+
+- **Mức độ:** Critical
+
+- **Hậu quả:** Server Linux bị crash, downtime hệ thống container, ảnh
+  hưởng production.
+
+- **Giải pháp:** Cập nhật Falcon Sensor, rollback kernel hoặc vô hiệu
+  hóa module lỗi.
+
+## 2.2 Kubernetes CRI-O "cr8escape" CVE-2022-0811
+
+- **Nguồn:** [CrowdStrike
+  Blog](https://www.crowdstrike.com/en-us/blog/cr8escape-new-vulnerability-discovered-in-cri-o-container-engine-cve-2022-0811/)
+
+- **Mô tả:** Lỗ hổng container escape cho phép leo thang đặc quyền từ
+  container lên host Kubernetes thông qua việc lạm dụng tham số
+  `kernel.core_pattern`.
+
+- **Mức độ:** High (CVSS 8.8)
+
+- **Hậu quả:** Kẻ tấn công có thể takeover node Kubernetes, thực thi mã
+  tùy ý với quyền root và inject malware.
+
+- **Giải pháp:** Vá CRI-O lên phiên bản 1.19.6 / 1.22.3 / 1.24.0 trở
+  lên.
+
+## 2.3 Linux Kernel CVE-2022-0185
+
+- **Nguồn:** [NVD NIST](https://nvd.nist.gov/vuln/detail/CVE-2022-0185)
+
+- **Mô tả:** Lỗ hổng Integer Underflow trong File System Context của
+  Linux kernel dẫn đến heap-based buffer overflow, cho phép leo thang
+  đặc quyền.
+
+- **Mức độ:** High
+
+- **Hậu quả:** Cho phép kẻ tấn công cục bộ (kể cả trong unprivileged
+  container) thoát ra ngoài và lấy quyền root trên host.
+
+- **Giải pháp:** Cập nhật Linux kernel và vô hiệu hóa unprivileged user
+  namespaces.
+
+## 2.4 OpenSSL CVE-2022-3602
+
+- **Nguồn:** [NVD NIST](https://nvd.nist.gov/vuln/detail/CVE-2022-3602)
+
+- **Mô tả:** Lỗ hổng 4-byte buffer overflow trong quy trình xác minh
+  chứng chỉ X.509 của thư viện mã hóa OpenSSL.
+
+- **Mức độ:** High
+
+- **Hậu quả:** Có thể dẫn đến Remote Code Execution (RCE) hoặc Denial of
+  Service (DoS) khi client xác minh một chứng chỉ độc hại.
+
+- **Giải pháp:** Cập nhật OpenSSL lên phiên bản 3.0.7 trở lên.
+
+## 2.5 Microsoft Exchange Server Y2K22 Bug (2022)
+
+- **Nguồn:**
+  [BleepingComputer](https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-year-2022-bug-in-fip-fs-breaks-email-delivery/)
+
+- **Mô tả:** Lỗi tràn số nguyên (integer overflow) trong engine quét mã
+  độc FIP-FS của Microsoft Exchange khi đổi sang năm 2022. Giá trị ngày
+  tháng "2201010001" vượt quá giới hạn của kiểu dữ liệu `signed int32`
+  (tối đa 2.147.483.647).
+
+- **Mức độ:** High
+
+- **Hậu quả:** Máy chủ Exchange trên toàn cầu ngừng gửi/nhận email hoàn
+  toàn vào ngày 1/1/2022.
+
+- **Giải pháp:** Microsoft phát hành script `ResetScanEngineVersion.ps1`
+  để vô hiệu hóa engine lỗi và cập nhật bộ đếm metadata.
+
+## 2.6 MOVEit Transfer SQL Injection CVE-2023-34362 (2023)
+
+- **Nguồn:** [UpGuard](https://www.upguard.com/blog/the-moveit-0-day)
+
+- **Mô tả:** Lỗ hổng SQL Injection nghiêm trọng trong ứng dụng web
+  Progress MOVEit Transfer cho phép truy cập cơ sở dữ liệu mà không cần
+  xác thực.\
+  **Đáng chú ý (Ví dụ về AI Hallucination):** Khi các chuyên gia thử yêu
+  cầu ChatGPT (GPT-3.5) giải thích cơ chế của lỗ hổng CVE-2023-34362
+  này, AI đã bị ảo giác (hallucinate) và lập luận sai lệch hoàn toàn
+  rằng đây là một \"lỗi tràn bộ đệm (buffer overflow) trong giao thức
+  mạng của Linux kernel\" thay vì một lỗi SQL Injection ở tầng ứng dụng
+  web.
+
+- **Mức độ:** Critical
+
+- **Hậu quả:** Băng đảng ransomware Cl0p đã khai thác zero-day này để
+  đánh cắp dữ liệu nhạy cảm của hàng ngàn tập đoàn và cơ quan chính phủ
+  trên toàn thế giới.
+
+- **Giải pháp:** Vô hiệu hóa HTTP/HTTPS traffic, cài đặt bản vá khẩn cấp
+  của Progress Software và rà soát hệ thống tìm Webshell (LEMURLOOT).
+
+## 2.7 CrowdStrike Falcon Sensor Global Outage (Tháng 7/2024)
+
+- **Nguồn:** [Wikipedia -- 2024 CrowdStrike-related IT
+  outages](https://en.wikipedia.org/wiki/2024_CrowdStrike-related_IT_outages)
+
+- **Mô tả:** Một tệp cấu hình lỗi (Channel File 291) được đẩy xuống cảm
+  biến Falcon chạy trên hệ điều hành Windows, gây ra lỗi đọc bộ nhớ
+  ngoài giới hạn (out-of-bounds memory read) dẫn đến vòng lặp Blue
+  Screen of Death (BSOD).
+
+- **Mức độ:** Critical
+
+- **Hậu quả:** Làm sập khoảng 8,5 triệu thiết bị Windows trên toàn thế
+  giới, làm tê liệt các hãng hàng không, ngân hàng và bệnh viện.
+
+- **Giải pháp:** Phải khởi động vào Safe Mode trên từng máy tính và xóa
+  tệp `C-00000291*.sys` gây lỗi thủ công.
+
+## 2.8 AI Hallucinated Legal Citations (BC Supreme Court, 2024)
+
+- **Nguồn:** [Clark Woods Law](https://clarkwoods.ca/blog/ai-lawyer/)
+
+- **Mô tả:** Luật sư tại Canada nộp bản đệ trình pháp lý chứa các án lệ
+  do ChatGPT tự tạo ra lên tòa án.
+
+- **Mức độ:** High
+
+- **Hậu quả:** Gây sai lệch pháp lý, làm mất uy tín luật sư, lãng phí
+  tài nguyên của tòa án.
+
+- **Giải pháp:** Bắt buộc kiểm chứng thủ công tất cả output của AI trước
+  khi đệ trình.
+
+## 2.9 Google AI Overview \"Glue on Pizza\" Hallucination (2024)
+
+- **Nguồn:** [BBC News](https://www.bbc.com/news/articles/cd11gzejgz4o)
+
+- **Mô tả:** Google AI Overview đọc dữ liệu từ Reddit/bài viết châm biếm
+  và khuyên người dùng trộn keo dán vào pizza để phô mai dính tốt hơn.
+
+- **Mức độ:** High
+
+- **Hậu quả:** Người dùng nhận thông tin sai lệch trầm trọng và có thể
+  gây nguy hiểm cho sức khỏe.
+
+- **Giải pháp:** Google phải điều chỉnh thuật toán rào chắn (guardrails)
+  và bộ lọc nguồn dữ liệu.
+
+## 2.10 Air Canada Chatbot Misinformation Case (2024)
+
+- **Nguồn:** [CBC
+  News](https://www.cbc.ca/news/canada/british-columbia/air-canada-chatbot-lawsuit-1.7116416)
+
+- **Mô tả:** Chatbot hỗ trợ khách hàng của Air Canada tự bịa ra chính
+  sách hoàn tiền sai lệch cho hành khách khi có người thân qua đời.
+
+- **Mức độ:** Medium
+
+- **Hậu quả:** Air Canada bị tòa án bắt buộc phải bồi thường theo chính
+  sách ảo mà AI đã hứa với khách hàng.
+
+- **Giải pháp:** Kiểm soát chặt chẽ scope kiến thức của chatbot và tinh
+  chỉnh RAG system.
+
+## 2.11 Mark Walters v. OpenAI Defamation Lawsuit (2023)
+
+- **Nguồn:** [First Amendment
+  Watch](https://firstamendmentwatch.org/libel-lawsuit-filed-in-georgia-against-chatgpt-parent-company-openai/)
+
+- **Mô tả:** ChatGPT bịa đặt một bản tóm tắt hồ sơ tòa án
+  (hallucination), gán ghép sai sự thật rằng ông Mark Walters đã lừa đảo
+  biển thủ tiền tại Second Amendment Foundation, dù ông không hề liên
+  quan đến vụ việc.
+
+- **Mức độ:** Critical
+
+- **Hậu quả:** Gây tổn hại danh dự nghiêm trọng, dẫn đến vụ kiện bôi nhọ
+  (defamation) đầu tiên đối với AI tạo sinh tại Mỹ (nộp 6/2023). Kết
+  quả: OpenAI thắng kiện vào tháng 5/2025.
+
+- **Giải pháp:** Bổ sung fact-checking và disclaimer mạnh mẽ vào AI
+  outputs.
+
+## 2.12 AI Fake Citations in Court Filings (2024)
+
+- **Nguồn:** [Fasken
+  Knowledge](https://www.fasken.com/en/knowledge/2024/03/cautionary-tales-of-using-ai-chatbots-the-courts-weigh-in-on-ai-hallucinations)
+
+- **Mô tả:** Luật sư sử dụng chatbot dẫn nguồn án lệ hoàn toàn không tồn
+  tại trong hồ sơ tố tụng.
+
+- **Mức độ:** High
+
+- **Hậu quả:** Dẫn đến các lệnh trừng phạt (sanctions) của tòa án và
+  đánh mất niềm tin vào AI.
+
+- **Giải pháp:** Xây dựng quy trình validation workflow bắt buộc trong
+  ngành luật.
+
+## 2.13 Mata v. Avianca Airlines - AI Fake Citations (2023)
+
+- **Nguồn:**
+  [Wikipedia](https://en.wikipedia.org/wiki/Mata_v._Avianca,_Inc.)
+
+- **Mô tả:** Trong vụ kiện thương tích tại tòa án New York, hai luật sư
+  đã đệ trình bản biện hộ được viết bằng ChatGPT với 6 vụ án pháp lý
+  hoàn toàn hư cấu.
+
+- **Mức độ:** High
+
+- **Hậu quả:** Vụ kiện bị bác bỏ, luật sư bị phạt \$5,000 và bị bêu tên
+  công khai.
+
+- **Giải pháp:** Yêu cầu người hành nghề luật kiểm chứng thông qua cơ sở
+  dữ liệu pháp lý truyền thống (Westlaw, LexisNexis).
+
+## 2.14 California Attorney Fined for ChatGPT Fabrications (2025)
+
+- **Nguồn:**
+  [CalMatters](https://calmatters.org/economy/technology/2025/09/chatgpt-lawyer-fine-ai-regulation/)
+
+- **Mô tả:** Luật sư Amir Mostafavi nộp một đơn kháng cáo với 21 trên
+  tổng số 23 câu trích dẫn hoàn toàn do ChatGPT tự bịa ra
+  (hallucination).
+
+- **Mức độ:** High
+
+- **Hậu quả:** Bị tòa án phạt \$10,000 vì tội nộp tài liệu ngụy tạo và
+  lãng phí thời gian của tòa.
+
+- **Giải pháp:** Các hãng luật cấm sử dụng AI chưa qua kiểm duyệt để tra
+  cứu án lệ.
+
+## 2.15 Michael Cohen's Lawyer Fake Citations via Google Bard (2023)
+
+- **Nguồn:** [Courthouse News
+  Service](https://www.courthousenews.com/michael-cohen-says-he-unknowingly-cited-cases-made-up-by-google-ai-software/)
+
+- **Mô tả:** Luật sư của cựu luật sư tổng thống Mỹ Michael Cohen đã nộp
+  các tài liệu chứa nguồn luật giả do tin tưởng mù quáng vào Google
+  Bard.
+
+- **Mức độ:** High
+
+- **Hậu quả:** Hồ sơ bị tòa án từ chối, uy tín bị giảm sút trầm trọng và
+  đứng trước nguy cơ kỷ luật.
+
+- **Giải pháp:** Đào tạo nhận thức về rủi ro Hallucination cho người
+  dùng phi kỹ thuật.
+
+## 2.16 NEDA Chatbot 'Tessa' Harmful Advice (2023)
+
+- **Nguồn:** [AI Incident Database -- NEDA Tessa
+  Chatbot](https://incidentdatabase.ai/cite/334/)
+
+- **Mô tả:** Chatbot 'Tessa' của Hiệp hội Rối loạn Ăn uống Quốc gia (Mỹ)
+  bị lỗi dữ liệu và đưa ra lời khuyên giảm cân cực đoan cho những người
+  đang mắc chứng rối loạn ăn uống.
+
+- **Mức độ:** Critical
+
+- **Hậu quả:** Gây rủi ro tâm lý và sức khỏe nghiêm trọng cho bệnh nhân;
+  hệ thống chatbot bị gỡ bỏ lập tức.
+
+- **Giải pháp:** Rà soát và giới hạn (hard-code) các quy tắc an toàn
+  (guardrails) đối với chatbot y tế/tâm lý.
+
+## 2.17 iTutorGroup AI Age Discrimination Bias (2023)
+
+- **Nguồn:** [SullCrom Law Firm](https://www.sullcrom.com/insights/blogs/2023/August/EEOC-Settles-First-AI-Discrimination-Lawsuit)
+
+- **Mô tả:** Một phần mềm tuyển dụng ứng dụng AI của iTutorGroup chứa
+  thiên kiến (AI Bias), tự động loại bỏ hồ sơ của phụ nữ trên 55 tuổi và
+  nam giới trên 60 tuổi.
+
+- **Mức độ:** High
+
+- **Hậu quả:** Bị Ủy ban Cơ hội Việc làm Bình đẳng (EEOC) khởi kiện và
+  công ty phải trả 365,000 USD để dàn xếp.
+
+- **Giải pháp:** Loại bỏ thuật toán thiên kiến và thực hiện kiểm toán
+  (audit) model AI định kỳ.
+
+## 2.18 DPD AI Chatbot Swearing and Criticizing Company (2024)
+
+- **Nguồn:** [The Guardian](https://www.theguardian.com/technology/2024/jan/20/dpd-ai-chatbot-swears-calls-itself-useless-and-criticises-firm)
+
+- **Mô tả:** Do một bản cập nhật lỗi, AI chatbot của hãng vận chuyển DPD
+  (Anh) bị thao túng bởi người dùng (prompt injection), dẫn đến việc AI
+  chửi thề và viết thơ chê bai chính dịch vụ của công ty.
+
+- **Mức độ:** Medium
+
+- **Hậu quả:** Làm ảnh hưởng tiêu cực đến hình ảnh thương hiệu trên mạng
+  xã hội; hệ thống AI bị vô hiệu hóa.
+
+- **Giải pháp:** Phải thiết lập filter chặt chẽ từ khóa và áp dụng các
+  biện pháp phòng chống Prompt Injection.
+
+## 2.19 Visual Hallucination in Multimodal LLMs (2024)
+
+- **Nguồn:** [ArXiv](https://arxiv.org/abs/2403.11116)
+
+- **Mô tả:** Các mô hình ngôn ngữ đa phương thức (MLLM) tạo ra các mô tả
+  sai lệch, tự vẽ ra các đối tượng không hề tồn tại trong hình ảnh thực
+  tế được cung cấp.
+
+- **Mức độ:** Medium
+
+- **Hậu quả:** Hệ thống nhận diện vật thể bị sai lệch, phân tích context
+  không chính xác.
+
+- **Giải pháp:** Áp dụng các benchmark dataset (như PhD Dataset) và
+  reinforcement tuning để giảm thiểu ảo giác thị giác.
+
+## 2.20 Samsung ChatGPT Confidential Data Leak (2023)
+
+- **Nguồn:** [CS Hub -- Samsung ChatGPT Data
+  Leak](https://www.cshub.com/data/news/iotw-samsung-employees-allegedly-leak-proprietary-information-via-chatgpt)
+
+- **Mô tả:** Trong vòng chưa đầy 20 ngày sau khi Samsung Semiconductor
+  cho phép nhân viên sử dụng ChatGPT, ba kỹ sư đã vô tình dán mã nguồn
+  nội bộ (source code kiểm tra chip bán dẫn, thuật toán phát hiện lỗi
+  sản xuất) và biên bản họp bí mật lên ChatGPT để được hỗ trợ debug và
+  tóm tắt.
+
+- **Mức độ:** High
+
+- **Hậu quả:** Dữ liệu sở hữu trí tuệ cốt lõi của Samsung bị chuyển lên
+  server của OpenAI và có thể trở thành một phần dữ liệu huấn luyện.
+  Samsung phải ban hành lệnh cấm toàn công ty sử dụng generative AI vào
+  tháng 5/2023 và đẩy nhanh phát triển AI nội bộ (Samsung Gauss).
+
+- **Giải pháp:** Ban hành chính sách AI governance nội bộ, giới hạn dữ
+  liệu đầu vào ChatGPT, và triển khai giải pháp LLM self-hosted để bảo
+  vệ dữ liệu nhạy cảm.
+
+# Requirement 3 - Test cases for ONE physical product
