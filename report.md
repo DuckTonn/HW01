@@ -1141,184 +1141,209 @@ TP. Hồ Chí Minh, 2026
 
 # Requirement 3 - Test cases for ONE physical product
 
-**Sản phẩm kiểm thử:** Nồi cơm điện Sharp 1.1L (KSH-D11V)  
-**Năm sản xuất** 2023  
-**Số serial:**  
-**Phiên bản/Model:** KSH-D11V – dung tích 1.1L, công suất 485W, điện áp 220V~50Hz  
-**Môi trường kiểm thử:** Môi trường phòng thường (~25°C), nguồn điện 220V ổn định  
+**Sản phẩm kiểm thử:** Máy lạnh Panasonic  
+**Năm sản xuất:** Không rõ  
+**Số serial:** Không rõ  
+**Phiên bản/Model:** Đời cũ (model inverter dân dụng)  
+**Môi trường kiểm thử:** Phòng kín (~25°C ban đầu), nguồn điện 220V ổn định, điều khiển từ xa (remote) đi kèm  
 **Người kiểm thử:** Phạm Đức Toàn – MSSV 23127540  
 **Ngày kiểm thử:** 30/05/2026  
 
 ---
 
-## Test Cases
-
-### TC-01 – Nấu cơm với lượng gạo tiêu chuẩn (1 cup / ~150g)
+### TC-01 – Bật máy lạnh và kiểm tra hoạt động cơ bản
 
 | Trường        | Nội dung |
 |---------------|----------|
-| **Objective** | Xác minh chức năng nấu cơm cơ bản hoạt động đúng với lượng gạo tiêu chuẩn (1 cup) |
-| **Input**     | Gạo trắng 1 cup (~150g), nước theo vạch "1" trên nồi, nguồn điện 220V |
-| **Steps**     | 1. Vo gạo sạch, cho vào nồi trong. 2. Thêm nước đến vạch "1". 3. Đặt nồi trong vào vỏ nồi. 4. Đóng nắp. 5. Cắm điện. 6. Nhấn nút "Cook" để bắt đầu nấu. 7. Chờ cho đến khi nồi tự chuyển sang chế độ "Warm". 8. Để ủ thêm 10 phút. 9. Mở nắp và kiểm tra cơm. |
-| **Expected**  | Cơm chín đều, hạt mềm, không bị sống hoặc khê; nồi tự động chuyển sang chế độ giữ ấm (đèn "Warm" sáng). |
+| **Objective** | Xác minh máy lạnh khởi động đúng cách và bắt đầu làm lạnh sau khi bật nguồn |
+| **Input**     | Remote điều khiển có pin đầy, nguồn điện 220V, nhiệt độ phòng ban đầu ~25°C |
+| **Steps**     | 1. Cắm điện vào ổ nguồn 220V. 2. Hướng remote vào máy, nhấn nút ON/OFF. 3. Quan sát đèn báo trên cục lạnh (indoor unit). 4. Lắng nghe tiếng khởi động của máy nén (compressor). 5. Cảm nhận hơi lạnh từ máy lạnh. |
+| **Expected**  | Đèn báo sáng, máy phát ra tiếng khởi động bình thường; luồng khí lạnh thổi ra có nhiệt độ thấp hơn nhiệt độ phòng; không có tiếng ồn bất thường hay mùi khét. |
+| **Actual**    | Máy lạnh hoạt động tốt |
+| **Verdict**   | Pass &nbsp;&nbsp; |
+
+---
+
+### TC-02 – Tắt máy lạnh và xác minh dừng hoạt động hoàn toàn
+
+| Trường        | Nội dung |
+|---------------|----------|
+| **Objective** | Xác minh máy lạnh dừng hoàn toàn (máy nén và quạt indoor dừng) sau khi nhấn OFF |
+| **Input**     | Máy đang chạy ở chế độ Cool, nhiệt độ đặt 26°C |
+| **Steps**     | 1. Khi máy đang hoạt động ở chế độ Cool. 2. Nhấn nút ON/OFF trên remote. 3. Quan sát đèn báo trên cục lạnh. 4. Lắng nghe xem máy nén và quạt có dừng hẳn không. 5. Chờ 2 phút và kiểm tra lại. |
+| **Expected**  | Đèn báo tắt; quạt indoor và máy nén ngừng hoạt động trong vòng 60 giây; không còn luồng khí thổi ra; không còn tiếng máy chạy. |
+| **Actual**    | Máy ngừng hoạt động hoàn toàn|
+| **Verdict**   | Pass &nbsp;&nbsp; |
+
+---
+
+### TC-03 – Kiểm tra chế độ làm lạnh (Cool Mode) ở nhiệt độ tiêu chuẩn 25°C
+
+| Trường        | Nội dung |
+|---------------|----------|
+| **Objective** | Xác minh máy lạnh duy trì nhiệt độ phòng ở mức cài đặt 25°C trong chế độ Cool |
+| **Input**     | Remote, chế độ Cool, nhiệt độ đặt 25°C, tốc độ quạt Auto, nhiệt kế đo phòng |
+| **Steps**     | 1. Bật máy, chọn chế độ Cool trên remote. 2. Đặt nhiệt độ về 25°C. 3. Bật tốc độ quạt Auto. 4. Để máy chạy liên tục 30 phút trong phòng kín. 5. Sau 30 phút, đo nhiệt độ phòng ở vị trí giữa phòng (cách cục lạnh 1.5m). |
+| **Expected**  | Nhiệt độ phòng dao động trong khoảng 24°C – 26°C (±1°C so với mức cài đặt 25°C); máy nén tự điều chỉnh (inverter) để duy trì nhiệt độ ổn định. |
 | **Actual**    | *(Ghi lại kết quả thực tế khi kiểm thử)* |
 | **Verdict**   | ☐ Pass &nbsp;&nbsp; ☐ Fail |
 
 ---
 
-### TC-02 – Nấu cơm ở dung tích tối thiểu (0.5 cup / ~75g) – Boundary Value
+### TC-04 – Kiểm tra nhiệt độ đặt giá trị biên thấp nhất (16°C – Boundary Value)
 
 | Trường        | Nội dung |
 |---------------|----------|
-| **Objective** | Kiểm tra hành vi của nồi khi nấu với lượng gạo tối thiểu (giá trị biên dưới) |
-| **Input**     | Gạo trắng 0.5 cup (~75g), nước thêm khoảng 100ml, nguồn điện 220V |
-| **Steps**     | 1. Cho 0.5 cup gạo đã vo vào nồi trong. 2. Thêm nước khoảng 100ml (ước lượng). 3. Đặt nồi vào vỏ, đóng nắp, cắm điện. 4. Nhấn "Cook". 5. Quan sát quá trình nấu và thời gian chuyển sang "Warm". 6. Kiểm tra cơm sau khi chuyển ấm. |
-| **Expected**  | Nồi vẫn nấu và chuyển sang "Warm" bình thường; cơm chín đều dù lượng ít; thời gian nấu ngắn hơn so với TC-01. |
+| **Objective** | Kiểm tra máy có chấp nhận và hoạt động đúng ở mức nhiệt độ thấp nhất được phép đặt (16°C) |
+| **Input**     | Remote, chế độ Cool, nhiệt độ đặt 16°C, tốc độ quạt High |
+| **Steps**     | 1. Bật máy, chọn chế độ Cool. 2. Nhấn nút nhiệt độ (-) liên tục đến khi màn hình remote hiển thị 16°C. 3. Thử nhấn (-) thêm một lần nữa. 4. Quan sát phản hồi trên remote và màn hình cục lạnh. 5. Để máy chạy 10 phút và đo nhiệt độ luồng khí ra. |
+| **Expected**  | Remote cho phép đặt 16°C và không giảm xuống dưới; màn hình hiển thị đúng 16°C; máy chạy ở công suất tối đa; nhiệt độ luồng khí ra từ cục lạnh rất thấp (≤10°C). |
 | **Actual**    | *(Ghi lại kết quả thực tế khi kiểm thử)* |
 | **Verdict**   | ☐ Pass &nbsp;&nbsp; ☐ Fail |
 
 ---
 
-### TC-03 – Nấu cơm ở dung tích tối đa (3 cups / ~450g) – Boundary Value
+### TC-05 – Kiểm tra nhiệt độ đặt giá trị biên cao nhất (30°C – Boundary Value)
 
 | Trường        | Nội dung |
 |---------------|----------|
-| **Objective** | Kiểm tra hành vi của nồi khi nấu ở mức gạo tối đa theo thông số kỹ thuật |
-| **Input**     | Gạo trắng 3 cups (~450g), nước theo vạch "3" trên nồi, nguồn điện 220V |
-| **Steps**     | 1. Vo gạo, cho 3 cups vào nồi. 2. Thêm nước đến vạch "3". 3. Đặt nồi vào vỏ, đóng nắp, cắm điện. 4. Nhấn "Cook". 5. Quan sát trong quá trình nấu xem có bị tràn hơi/nước không. 6. Chờ tự động chuyển "Warm". 7. Kiểm tra kết quả. |
-| **Expected**  | Nồi nấu đúng công suất; không có tràn nước hoặc hơi bất thường; cơm chín đều. |
+| **Objective** | Kiểm tra máy có chấp nhận và hoạt động đúng ở mức nhiệt độ cao nhất được phép đặt (30°C) |
+| **Input**     | Remote, chế độ Cool, nhiệt độ đặt 30°C, nhiệt độ phòng ~28°C |
+| **Steps**     | 1. Bật máy, chọn chế độ Cool. 2. Nhấn nút (+) liên tục đến khi màn hình hiển thị 30°C. 3. Thử nhấn (+) thêm một lần nữa. 4. Để máy chạy 10 phút. 5. Quan sát hành vi máy nén khi nhiệt độ phòng thấp hơn hoặc bằng nhiệt độ cài đặt. |
+| **Expected**  | Remote không cho phép tăng vượt quá 30°C; màn hình hiển thị đúng 30°C; khi nhiệt độ phòng đạt gần 30°C, máy nén tự ngắt và chỉ quạt chạy. |
 | **Actual**    | *(Ghi lại kết quả thực tế khi kiểm thử)* |
 | **Verdict**   | ☐ Pass &nbsp;&nbsp; ☐ Fail |
 
 ---
 
-### TC-04 – Kiểm tra chức năng giữ ấm (Keep Warm)
+### TC-06 – Kiểm tra các mức tốc độ quạt (Fan Speed: Low / Medium / High / Auto)
 
 | Trường        | Nội dung |
 |---------------|----------|
-| **Objective** | Xác minh cơm được duy trì nhiệt độ ấm thích hợp (60–70°C) sau khi chuyển sang chế độ Warm |
-| **Input**     | Cơm đã nấu chín (từ TC-01), nhiệt kế thực phẩm |
-| **Steps**     | 1. Sau khi TC-01 hoàn tất và nồi chuyển sang "Warm". 2. Để nồi giữ ấm trong 1 giờ mà không mở nắp. 3. Sau 1 giờ, mở nắp và quan sát. 4. Kiểm tra chất lượng cơm (không bị khô, không bị đóng vảy). |
-| **Expected**  | Nồi giữ ấm được 1 giờ; cơm không bị khô hay đổi màu sau 1 giờ giữ ấm. |
+| **Objective** | Xác minh tất cả các mức tốc độ quạt hoạt động đúng và tạo ra sự khác biệt lưu lượng gió rõ ràng |
+| **Input**     | Remote, chế độ Cool, nhiệt độ đặt 24°C, lần lượt chọn Fan Speed: Low → Med → High → Auto |
+| **Steps**     | 1. Bật máy ở chế độ Cool, nhiệt độ 24°C. 2. Đặt tốc độ quạt về Low, chờ 1 phút, cảm nhận lưu lượng gió. 3. Chuyển sang Med, chờ 1 phút, cảm nhận lưu lượng gió. 4. Chuyển sang High, chờ 1 phút. 5. Chuyển sang Auto và theo dõi . 6. Ghi nhận tiếng ồn và lưu lượng gió ở từng mức. |
+| **Expected**  | Lưu lượng gió tăng rõ rệt theo thứ tự Low < Med < High; ở chế độ Auto máy tự điều chỉnh tốc độ quạt theo nhiệt độ phòng; không có tiếng kêu lạ ở bất kỳ mức nào. |
 | **Actual**    | *(Ghi lại kết quả thực tế khi kiểm thử)* |
 | **Verdict**   | ☐ Pass &nbsp;&nbsp; ☐ Fail |
 
 ---
 
-### TC-05 – Tự động ngắt điện khi cơm chín (Auto Cut-off)
+### TC-07 – Kiểm tra chức năng hẹn giờ tắt (Sleep Timer)
 
 | Trường        | Nội dung |
 |---------------|----------|
-| **Objective** | Xác minh cơ chế tự động chuyển chế độ từ "Cook" sang "Warm" khi nhiệt độ đạt ngưỡng |
-| **Input**     | Gạo 1 cup, nước vạch "1", nguồn điện 220V, đồng hồ bấm giờ |
-| **Steps**     | 1. Nấu cơm như TC-01. 2. Quan sát đèn trạng thái trong suốt quá trình nấu. 3. Dùng đồng hồ ghi lại thời điểm đèn "Cook" tắt và đèn "Warm" bật. 4. Xác nhận không có can thiệp thủ công nào. |
-| **Expected**  | Nồi tự động chuyển từ "Cook" sang "Warm" sau khoảng 20–30 phút; đèn trạng thái thay đổi tương ứng; không cần tác động thủ công. |
+| **Objective** | Xác minh máy lạnh tự động tắt sau khoảng thời gian đã được hẹn giờ |
+| **Input**     | Remote, chế độ Cool, hẹn giờ tắt 1 giờ (Timer Off = 1h), đồng hồ bấm giờ |
+| **Steps**     | 1. Bật máy, chọn chế độ Cool, nhiệt độ 25°C. 2. Nhấn nút Timer/Sleep trên remote, đặt thời gian tắt sau 1 giờ. 3. Xác nhận màn hình hiển thị "1h" hoặc biểu tượng timer. 4. Bắt đầu bấm đồng hồ. 5. Sau 60 phút, kiểm tra xem máy đã tự tắt chưa. |
+| **Expected**  | Sau đúng 60 phút (±2 phút), máy tự động tắt; đèn báo tắt; quạt và máy nén ngừng hoàn toàn; không cần tác động thủ công. |
 | **Actual**    | *(Ghi lại kết quả thực tế khi kiểm thử)* |
 | **Verdict**   | ☐ Pass &nbsp;&nbsp; ☐ Fail |
 
 ---
 
-### TC-06 – Kiểm tra an toàn khi không có gạo/nước (Dry Run Safety)
+### TC-08 – Kiểm tra chế độ ngủ (Sleep Mode)
 
 | Trường        | Nội dung |
 |---------------|----------|
-| **Objective** | Kiểm tra cơ chế bảo vệ của nồi khi bật nấu mà không có gạo/nước (tình huống nguy hiểm) |
-| **Input**     | Nồi không chứa gạo hoặc nước, nguồn điện 220V |
-| **Steps**     | 1. Đặt nồi trong (rỗng) vào vỏ nồi. 2. Đóng nắp, cắm điện. 3. Nhấn "Cook". 4. Quan sát: theo dõi liên tục trong 5 phút. 5. Ghi lại nhiệt độ bên ngoài vỏ nồi bằng nhiệt kế hồng ngoại. 6. Ghi nhận thời điểm nồi chuyển sang "Warm" (nếu có). |
-| **Expected**  | Nồi phát hiện không có tải nhiệt, tự động chuyển sang "Warm" rất nhanh (dưới 2 phút) mà không gây cháy hoặc biến dạng; nhiệt độ vỏ ngoài không vượt quá 70°C. |
+| **Objective** | Xác minh chế độ Sleep tự động tăng nhiệt độ theo thời gian và giảm độ sáng đèn để không làm phiền giấc ngủ |
+| **Input**     | Remote, chế độ Sleep (hoặc nút Sleep), nhiệt độ ban đầu đặt 26°C, nhiệt kế phòng |
+| **Steps**     | 1. Bật máy, chọn chế độ Cool, nhiệt độ 26°C. 2. Nhấn nút Sleep trên remote. 3. Quan sát đèn báo trên cục lạnh (có giảm sáng không). 4. Sau 30 phút, kiểm tra nhiệt độ cài đặt trên remote xem có tự tăng thêm 1°C không. 5. Theo dõi thêm 30 phút tiếp theo. |
+| **Expected**  | Đèn hiển thị trên cục lạnh tối đi hoặc tắt; nhiệt độ cài đặt tự động tăng thêm 1°C sau mỗi giờ (theo cơ chế Sleep của Panasonic); tiếng máy êm hơn so với chế độ Cool thông thường. |
 | **Actual**    | *(Ghi lại kết quả thực tế khi kiểm thử)* |
 | **Verdict**   | ☐ Pass &nbsp;&nbsp; ☐ Fail |
 
 ---
 
-### TC-07 – Kiểm tra sự ổn định của nắp và van thoát hơi
+### TC-09 – Kiểm tra điều khiển từ xa hoạt động ở khoảng cách tối đa (~8m)
 
 | Trường        | Nội dung |
 |---------------|----------|
-| **Objective** | Xác minh nắp đậy kín và van thoát hơi hoạt động đúng, không để hơi nước phun ra ngoài bất thường |
-| **Input**     | Gạo 2 cups, nước theo vạch "2", nguồn điện 220V |
-| **Steps**     | 1. Cho gạo và nước vào nồi. 2. Đóng nắp chắc chắn. 3. Nhấn "Cook". 4. Quan sát van thoát hơi trên nắp trong suốt quá trình nấu. 5. Kiểm tra xem hơi có bị phun mạnh hoặc nước có trào ra xung quanh nắp không. |
-| **Expected**  | Hơi nước thoát ra từ van thoát hơi một cách điều tiết, không có nước trào ra mép nắp; nắp không bị bật trong quá trình nấu. |
+| **Objective** | Xác minh remote điều khiển vẫn hoạt động chính xác ở khoảng cách tối đa được nhà sản xuất quy định (~8m) |
+| **Input**     | Remote có pin đầy, máy lạnh đang tắt, phòng không có vật cản giữa remote và cục lạnh |
+| **Steps**     | 1. Đứng cách cục lạnh khoảng 8m, hướng thẳng remote về phía đầu thu hồng ngoại. 2. Nhấn ON/OFF. 3. Quan sát máy có phản hồi không (đèn sáng, tiếng beep). 4. Thử chỉnh nhiệt độ và tốc độ quạt từ khoảng cách này. 5. Lặp lại 3 lần. |
+| **Expected**  | Máy lạnh nhận lệnh và phản hồi đúng (đèn sáng, beep xác nhận) trong cả 3 lần thử ở khoảng cách 8m; các lệnh điều chỉnh nhiệt độ và quạt được thực thi chính xác. |
 | **Actual**    | *(Ghi lại kết quả thực tế khi kiểm thử)* |
 | **Verdict**   | ☐ Pass &nbsp;&nbsp; ☐ Fail |
 
 ---
 
-### TC-08 – Kiểm tra nhiệt độ bề mặt ngoài vỏ nồi khi hoạt động (An toàn nhiệt)
+### TC-10 – Kiểm tra tiếng ồn và rung động bất thường khi hoạt động liên tục (2 giờ)
 
 | Trường        | Nội dung |
 |---------------|----------|
-| **Objective** | Đảm bảo vỏ ngoài của nồi không đạt đến nhiệt độ gây bỏng khi chạm vào trong quá trình nấu |
-| **Input**     | Gạo 1 cup, nước vạch "1", nhiệt kế hồng ngoại (IR), nguồn điện 220V |
-| **Steps**     | 1. Khởi động nấu cơm như TC-01. 2. Sau 15 phút (giữa chu kỳ nấu), dùng nhiệt kế hồng ngoại đo nhiệt độ tại: thân vỏ trước, thân vỏ sau, tay cầm, nắp đậy. 3. Ghi lại tất cả các giá trị. |
-| **Expected**  | Thân vỏ và tay cầm không vượt quá 60°C; nắp đậy không vượt quá 80°C (theo tiêu chuẩn an toàn điện gia dụng IEC 60335). |
+| **Objective** | Đảm bảo máy lạnh không phát ra tiếng ồn, rung động hay mùi bất thường sau khi hoạt động liên tục 2 giờ |
+| **Input**     | Chế độ Cool, nhiệt độ 24°C, tốc độ quạt High, ứng dụng đo tiếng ồn trên điện thoại (dB meter) |
+| **Steps**     | 1. Bật máy ở chế độ Cool, 24°C, quạt High. 2. Đo tiếng ồn ban đầu bằng ứng dụng dB meter ở khoảng cách 1m. 3. Để máy chạy liên tục 2 giờ. 4. Sau 2 giờ, đo tiếng ồn lại và nghe có tiếng lạ (rền, rít, lộc cộc) không. 5. Quan sát xem có hơi nước ngưng tụ bất thường chảy ra không. |
+| **Expected**  | Tiếng ồn dưới 45 dB ở khoảng cách 1m; không có tiếng rền, rít, hoặc lộc cộc; không có mùi khét hay mùi lạ; không có nước nhỏ giọt bất thường từ cục lạnh vào phòng. |
 | **Actual**    | *(Ghi lại kết quả thực tế khi kiểm thử)* |
 | **Verdict**   | ☐ Pass &nbsp;&nbsp; ☐ Fail |
 
 ---
 
-### TC-09 – Kiểm tra nấu với nước quá nhiều (Overflow Test)
+### TC-11 – Kiểm tra chế độ tự động (Auto Mode) tự điều chỉnh theo nhiệt độ phòng
 
 | Trường        | Nội dung |
 |---------------|----------|
-| **Objective** | Kiểm tra hành vi của nồi khi lượng nước vượt quá mức khuyến nghị tối đa |
-| **Input**     | Gạo 1 cup, nước vượt vạch "1" khoảng 30% (thêm ~60ml so với vạch), nguồn điện 220V |
-| **Steps**     | 1. Cho gạo vào nồi. 2. Thêm nước nhiều hơn 30% so với vạch khuyến nghị. 3. Đóng nắp, cắm điện, nhấn "Cook". 4. Quan sát liên tục trong toàn bộ chu kỳ nấu. 5. Kiểm tra xem nước có tràn qua van không. |
-| **Expected**  | Nồi nấu chín nhưng cơm có thể nhão; nước có thể thoát qua van thoát hơi nhưng không phun mạnh ra ngoài; không gây nguy hiểm điện. |
+| **Objective** | Xác minh chế độ Auto tự động lựa chọn giữa làm lạnh/quạt và điều chỉnh công suất phù hợp với nhiệt độ phòng thực tế |
+| **Input**     | Remote, chế độ Auto, nhiệt độ đặt 25°C, nhiệt kế phòng, nhiệt độ phòng ban đầu ~30°C (phòng nóng) |
+| **Steps**     | 1. Tắt máy lạnh và để phòng đạt ~30°C trước khi test. 2. Bật máy, chọn chế độ Auto, đặt nhiệt độ 25°C. 3. Quan sát máy tự chọn chế độ làm việc (Cool hay Fan). 4. Theo dõi trong 20 phút khi phòng đang nguội dần. 5. Khi nhiệt độ phòng đạt 25°C, quan sát hành vi của máy nén. |
+| **Expected**  | Ở 30°C, máy tự chọn chế độ Cool và chạy máy nén; khi nhiệt độ phòng tiến gần 25°C, máy nén tự điều chỉnh giảm công suất (inverter) hoặc ngắt; màn hình hiển thị đúng chế độ Auto. |
+| **Actual**    | *(Ghi lại kết quả thực tế khi kiểm thử)* |
+| **Verdict**   | ☐ Pass &nbsp;&nbsp; ☐ Fail |
+
+---
+### TC-12 - Kiểm tra khi máy lạnh đang chạy thì bị cúp điện
+
+| Trường        | Nội dung |
+|---------------|----------|
+| **Objective** | Xác minh chức năng tự khởi động lại sau khi có điện lại, và máy tiếp tục hoạt động theo chế độ cài đặt trước khi bị mất điện |
+| **Input**     | Remote, chế độ Cool, nhiệt độ 25°C, đồng hồ bấm giờ, nguồn điện nhà |
+| **Steps**     | 1. Bật máy lạnh ở chế độ Cool, 25°C và để máy chạy ổn định trong 5 phút. 2. Rút phích cắm đột ngột để mô phỏng cúp điện. 3. Chờ 1 phút. 4. Bật lại điện. 5. Quan sát hành vi khởi động của máy. 6. Kiểm tra xem máy có tự động bật lại theo chế độ đã cài trước đó không (tùy model có chức năng này). |
+| **Expected**  | Máy tự động bật lại sau khi có điện (nếu có chức năng Auto Restart). Nếu không có chức năng tự khởi động, máy không hoạt động và yêu cầu người dùng bật lại thủ công. |
 | **Actual**    | *(Ghi lại kết quả thực tế khi kiểm thử)* |
 | **Verdict**   | ☐ Pass &nbsp;&nbsp; ☐ Fail |
 
 ---
 
-### TC-10 – Kiểm tra khả năng cắm/rút điện an toàn trong quá trình nấu
+### TC-13 - Kiểm tra khi máy lạnh đang hoạt động thì remote hết pin hoặc bị mất tín hiệu
 
 | Trường        | Nội dung |
 |---------------|----------|
-| **Objective** | Xác minh nồi không gây ra tia lửa điện, rò rỉ dòng điện hoặc hư hỏng khi rút phích cắm đột ngột trong lúc đang nấu |
-| **Input**     | Gạo 1 cup, nước vạch "1", nguồn điện 220V |
-| **Steps**     | 1. Bắt đầu nấu cơm. 2. Sau 10 phút, rút phích cắm ra khỏi ổ điện. 3. Quan sát: kiểm tra tia lửa, mùi khét, âm thanh bất thường. 4. Cắm lại điện sau 30 giây. 5. Nhấn "Cook" lại để tiếp tục nấu. 6. Chờ đến khi cơm chín và kiểm tra kết quả. |
-| **Expected**  | Không có tia lửa điện hay mùi khét khi rút phích; sau khi cắm lại, nồi hoạt động bình thường và cơm vẫn chín được. |
-| **Actual**    | *(Ghi lại kết quả thực tế khi kiểm thử)* |
-| **Verdict**   | ☐ Pass &nbsp;&nbsp; ☐ Fail |
+| **Objective** | Xác minh chức năng điều khiển từ xa (remote) hoạt động đúng và máy vẫn duy trì chế độ cài đặt khi remote hết pin hoặc mất tín hiệu |
+| **Input**     | Remote, chế độ Cool, nhiệt độ 25°C, pin remote mới, pin remote hết, vật cản tín hiệu |
+| **Steps**     | 1. Bật máy lạnh ở chế độ Cool, 25°C và để máy chạy ổn định. 2. Tháo pin remote để mô phỏng remote hết pin/mất tín hiệu. 3. Quan sát máy hoạt động. 4. Kiểm tra xem máy lạnh có tiếp tục hoạt động theo chế độ đã cài đặt trước đó không. |
+| **Expected**  | Máy vẫn tiếp tục hoạt động theo chế độ đã cài đặt trước khi remote hết pin hoặc bị mất tín hiệu; nếu có nút bấm thủ công trên cục lạnh, người dùng có thể sử dụng nút này để điều khiển máy. |
+| **Actual**    | Máy vẫn tiếp tục hoạt động theo chế độ đã cài đặt trước khi remote hết pin hoặc bị mất tín hiệu |
+| **Verdict**   | Pass &nbsp;&nbsp;  |
 
 ---
 
-### TC-11 – Kiểm tra tính dễ vệ sinh của nồi trong (Non-stick Coating)
+### TC-14 - Kiểm tra chế độ chức năng Air Swing
 
 | Trường        | Nội dung |
 |---------------|----------|
-| **Objective** | Đánh giá khả năng làm sạch lớp chống dính của nồi trong sau khi nấu |
-| **Input**     | Nồi sau khi nấu xong TC-01, nước ấm, miếng bọt biển mềm |
-| **Steps**     | 1. Lấy nồi trong ra sau khi cơm đã được múc hết. 2. Để nguội 5 phút. 3. Tráng nước ấm vào nồi trong. 4. Dùng miếng bọt biển mềm lau nhẹ bên trong. 5. Quan sát xem cơm thừa có bám dính không. 6. Tráng lại bằng nước sạch và kiểm tra. |
-| **Expected**  | Cơm thừa và tinh bột không bám chặt vào lớp chống dính; làm sạch dễ dàng chỉ bằng miếng bọt biển mềm và nước ấm, không cần chà mạnh. |
-| **Actual**    | *(Ghi lại kết quả thực tế khi kiểm thử)* |
-| **Verdict**   | ☐ Pass &nbsp;&nbsp; ☐ Fail |
+| **Objective** | Xác minh chức năng Air Swing hoạt động đúng |
+| **Input**     | Remote, chế độ Air Swing, nhiệt độ 25°C |
+| **Steps**     | 1. Bật máy lạnh ở chế độ Cool, 25°C và để máy chạy ổn định. 2. Nhấn nút Air Swing trên remote. 3. Quan sát xem các lá đảo gió tự động di chuyển lên xuống |
+| **Expected**  | Các lá đảo gió tự động di chuyển lên xuống |
+| **Actual**    | Các lá gió di chuyển lên xuống |
+| **Verdict**   | Pass &nbsp;&nbsp;  |
 
 ---
 
-### TC-12 – Kiểm tra tính nhất quán khi nấu liên tiếp nhiều lần (Consistency Test)
+### TC-15 Kiểm tra máy lạnh không phản hồi khi hướng remote xuống dưới
 
 | Trường        | Nội dung |
 |---------------|----------|
-| **Objective** | Xác minh nồi cho kết quả nấu nhất quán sau nhiều lần sử dụng liên tiếp (3 lần) |
-| **Input**     | Gạo trắng 1 cup, nước vạch "1" (lặp lại 3 lần với cùng input), nguồn điện 220V |
-| **Steps**     | 1. Thực hiện nấu cơm theo quy trình TC-01 (lần 1). 2. Ghi lại thời gian nấu, chất lượng cơm. 3. Làm nguội nồi 15 phút. 4. Lặp lại với cùng lượng gạo và nước (lần 2). 5. Ghi lại kết quả lần 2. 6. Lặp lại lần 3. 7. So sánh kết quả ba lần. |
-| **Expected**  | Thời gian nấu giữa 3 lần chênh nhau không quá ±2 phút; chất lượng cơm (độ chín, độ mềm) nhất quán giữa các lần; không có dấu hiệu suy giảm hiệu năng. |
-| **Actual**    | *(Ghi lại kết quả thực tế khi kiểm thử)* |
-| **Verdict**   | ☐ Pass &nbsp;&nbsp; ☐ Fail |
+| **Objective** | Xác minh remote điều khiển không hoạt động chính xác khi hướng remote xuống dưới |
+| **Input**     | Remote có pin đầy, máy lạnh đang tắt, hướng remote xuống dưới |
+| **Steps**     | 1. Đứng cách cục lạnh 2m, hướng remote xuống dưới. 2. Nhấn ON/OFF. 3. Quan sát máy không có phản hồi (đèn không sáng). 4. Thử chỉnh nhiệt độ và tốc độ quạt từ khoảng cách này. |
+| **Expected**  | Máy lạnh không nhận lệnh; các lệnh điều chỉnh nhiệt độ và quạt không được thực thi. |
+| **Actual**    | Máy lạnh không nhận lệnh |
+| **Verdict**   | Pass &nbsp;&nbsp;  |
 
 ---
-
-### TC-13 – Kiểm tra khi hạt gạo/cơm rơi xuống vỏ nồi cơm điện
-
-| Trường        | Nội dung |
-|---------------|----------|
-| **Objective** | Kiểm tra xem hạt gạo/cơm rơi xuống vỏ nồi cơm điện có an toàn không |
-| **Input**     | Vài hạt gạo/cơm dưới đáy nồi, nguồn điện 220V |
-| **Steps**     | 1. Cho gạo vào nồi. 2. Đóng nắp, nhấn nút "Cook". 3. Để nồi tự nấu cho đến khi hoàn thành chu trình và chuyển sang chế độ "Warm". 4. Sau khi nấu xong, lấy gạo ra đĩa, chờ 10 phút cho nguội, sau đó nghiêng nồi và gõ nhẹ để hạt cơm rơi ra khỏi vỏ nồi. 5. Kiểm tra vỏ nồi. |
-| **Expected**  | Không có dấu hiệu cháy, nổ, chập điện hay bất thường nào; vỏ nồi sạch, dễ dàng lau chùi. Hạt gạo/cơm rơi xuống sẽ bị cháy nhưng không ảnh hưởng đến hoạt động của nồi. |
-| **Actual**    | *(Ghi lại kết quả thực tế khi kiểm thử)* |
-| **Verdict**   | ☐ Pass &nbsp;&nbsp; ☐ Fail |
 
 # AI Audit Report
 # AI Critique
