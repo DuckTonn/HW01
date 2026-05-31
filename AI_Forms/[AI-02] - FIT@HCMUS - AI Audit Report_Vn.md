@@ -14,13 +14,13 @@
 
 | Mục | Giá trị |
 | :---- | :---- |
-| **Họ tên sinh viên (in hoa):** |  |
-| **MSSV:** |  |
-| **Lớp / Khoá:** |  |
-| **Mã bài tập (ví dụ HW\#00, HW\#02):** |  |
-| **Ngày làm bài:** |  |
-| **Công cụ AI đã dùng:** |  |
-| **Công cụ AI đã dùng:** | \[ \] Có  \[ \] Không |
+| **Họ tên sinh viên (in hoa):** | PHẠM ĐỨC TOÀN |
+| **MSSV:** | 23127540 |
+| **Lớp / Khoá:** | 23KTPM2 |
+| **Mã bài tập (ví dụ HW\#00, HW\#02):** | HW01 |
+| **Ngày làm bài:** | 01/06/2026 |
+| **Công cụ AI đã dùng:** | Claude Code, ChatGPT, Gemini |
+| **Công cụ AI đã dùng:** | \[ X \] Có  \[ \] Không |
 
 ## **2\. Hướng dẫn (đọc trước khi điền)**
 
