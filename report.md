@@ -30,7 +30,7 @@ TP. Hồ Chí Minh, 2026
   Posting](https://www.topcv.vn/viec-lam/qc-mid-senior/2161770.html?ta_source=JobSearchList_LinkDetail&u_sr_id=w45WaC0TZFZxne0FBqt6Aa9sHyhyB7wjJvT9rhVk_1779974704)
 
   <figure id="fig:job_01" data-latex-placement="htbp">
-  <img src="./04_Job_Postings/job_01.png" style="width:85.0%" />
+  <img src="./Job_Postings/job_01.png" style="width:85.0%" />
   <figcaption>Ảnh chụp màn hình tin tuyển dụng QC Mid-Senior</figcaption>
   </figure>
 
@@ -95,7 +95,7 @@ TP. Hồ Chí Minh, 2026
   Posting](https://www.topcv.vn/viec-lam/chuyen-vien-kiem-thu-phan-mem-tester/1713391.html?ta_source=JobSuggestInSearchListNoResult_LinkDetail&u_sr_id=5blA0GD41B3bPDsxmhni2QC1IE9qhkONUFHc7dp4_1779955919)
 
   <figure id="fig:job_02" data-latex-placement="htbp">
-  <img src="./04_Job_Postings/job_02.png" style="width:85.0%" />
+  <img src="./Job_Postings/job_02.png" style="width:85.0%" />
   <figcaption>Ảnh chụp màn hình tin tuyển dụng Chuyên Viên Kiểm Thử Phần
   Mềm / Tester</figcaption>
   </figure>
@@ -158,7 +158,7 @@ TP. Hồ Chí Minh, 2026
   Posting](https://www.topcv.vn/viec-lam/automation-manual-tester-du-an-ai-giao-duc-nghi-thu-7-chu-nhat-3-nam-kinh-nghiem-thu-nhap-15-30-trieu-tai-ha-noi/2164219.html?ta_source=ButtonCopyToClipboardInJobDetail&u_sr_id=w45WaC0TZFZxne0FBqt6Aa9sHyhyB7wjJvT9rhVk_1779979702)
 
   <figure id="fig:job_03" data-latex-placement="htbp">
-  <img src="./04_Job_Postings/job_03.png" style="width:85.0%" />
+  <img src="./Job_Postings/job_03.png" style="width:85.0%" />
   <figcaption>Ảnh chụp màn hình tin tuyển dụng Automation/Manual Tester -
   Dự Án AI Giáo Dục</figcaption>
   </figure>
@@ -263,7 +263,7 @@ TP. Hồ Chí Minh, 2026
   Posting](https://www.topcv.vn/viec-lam/nhan-vien-qc-tester-phan-mem-web-tester/2149736.html?ta_source=JobSearchList_LinkDetail&u_sr_id=w45WaC0TZFZxne0FBqt6Aa9sHyhyB7wjJvT9rhVk_1779976920)
 
   <figure id="fig:job_04" data-latex-placement="htbp">
-  <img src="./04_Job_Postings/job_04.png" style="width:85.0%" />
+  <img src="./Postings/job_04.png" style="width:85.0%" />
   <figcaption>Ảnh chụp màn hình tin tuyển dụng Nhân Viên QC / Tester Phần
   Mềm / Web Tester</figcaption>
   </figure>
@@ -328,7 +328,7 @@ TP. Hồ Chí Minh, 2026
   Posting](https://vn.indeed.com/viewjob?jk=e75796f042d47946&from=shareddesktop_copy)
 
   <figure id="fig:job_05" data-latex-placement="htbp">
-  <img src="./04_Job_Postings/job_05.png" style="width:85.0%" />
+  <img src="./Job_Postings/job_05.png" style="width:85.0%" />
   <figcaption>Ảnh chụp màn hình tin tuyển dụng Lead QC
   Engineer</figcaption>
   </figure>
@@ -420,7 +420,7 @@ TP. Hồ Chí Minh, 2026
   Posting](https://www.topcv.vn/viec-lam/qa-engineerdata-platform-aws-etl/2149906.html)
 
   <figure id="fig:job_06" data-latex-placement="htbp">
-  <img src="./04_Job_Postings/job_06.png" style="width:85.0%" />
+  <img src="./Job_Postings/job_06.png" style="width:85.0%" />
   <figcaption>Ảnh chụp màn hình tin tuyển dụng QA Engineer-Data Platform
   (AWS, ETL)</figcaption>
   </figure>
@@ -500,7 +500,7 @@ TP. Hồ Chí Minh, 2026
   Posting](https://www.topcv.vn/viec-lam/tester-manual-automation-thu-nhap-15-20-trieu-thang/2169805.html)
 
   <figure id="fig:job_07" data-latex-placement="htbp">
-  <img src="./04_Job_Postings/job_07.png" style="width:85.0%" />
+  <img src="./Job_Postings/job_07.png" style="width:85.0%" />
   <figcaption>Ảnh chụp màn hình tin tuyển dụng Tester
   (Manual/Automation)</figcaption>
   </figure>
@@ -552,7 +552,7 @@ TP. Hồ Chí Minh, 2026
   Posting](https://vn.indeed.com/viewjob?jk=0116bce400f25597&from=shareddesktop_copy)
 
   <figure id="fig:job_08" data-latex-placement="htbp">
-  <img src="./04_Job_Postings/job_08.png" style="width:85.0%" />
+  <img src="./Job_Postings/job_08.png" style="width:85.0%" />
   <figcaption>Ảnh chụp màn hình tin tuyển dụng QA/QC Engineer (Exp
   AI)</figcaption>
   </figure>
@@ -615,7 +615,7 @@ TP. Hồ Chí Minh, 2026
   Posting](https://vn.indeed.com/viewjob?jk=2426ad9ea8b817d2&from=shareddesktop_copy)
 
   <figure id="fig:job_09" data-latex-placement="htbp">
-  <img src="./04_Job_Postings/job_09.png" style="width:85.0%" />
+  <img src="./Job_Postings/job_09.png" style="width:85.0%" />
   <figcaption>Ảnh chụp màn hình tin tuyển dụng Mid/Senior Automation QC
   (Playwright)</figcaption>
   </figure>
@@ -739,7 +739,7 @@ TP. Hồ Chí Minh, 2026
   Posting](https://vn.indeed.com/viewjob?jk=ce4219771cae5f6f&from=shareddesktop_copy)
 
   <figure id="fig:job_10" data-latex-placement="htbp">
-  <img src="./04_Job_Postings/job_10.png" style="width:85.0%" />
+  <img src="./Job_Postings/job_10.png" style="width:85.0%" />
   <figcaption>Ảnh chụp màn hình tin tuyển dụng Senior Quality Engineer,
   VNGGames</figcaption>
   </figure>
@@ -1140,3 +1140,186 @@ TP. Hồ Chí Minh, 2026
   vệ dữ liệu nhạy cảm.
 
 # Requirement 3 - Test cases for ONE physical product
+
+**Sản phẩm kiểm thử:** Nồi cơm điện Sharp 1.1L (KSH-D11V)  
+**Năm sản xuất** 2023  
+**Số serial:**  
+**Phiên bản/Model:** KSH-D11V – dung tích 1.1L, công suất 485W, điện áp 220V~50Hz  
+**Môi trường kiểm thử:** Môi trường phòng thường (~25°C), nguồn điện 220V ổn định  
+**Người kiểm thử:** Phạm Đức Toàn – MSSV 23127540  
+**Ngày kiểm thử:** 30/05/2026  
+
+---
+
+## Test Cases
+
+### TC-01 – Nấu cơm với lượng gạo tiêu chuẩn (1 cup / ~150g)
+
+| Trường        | Nội dung |
+|---------------|----------|
+| **Objective** | Xác minh chức năng nấu cơm cơ bản hoạt động đúng với lượng gạo tiêu chuẩn (1 cup) |
+| **Input**     | Gạo trắng 1 cup (~150g), nước theo vạch "1" trên nồi, nguồn điện 220V |
+| **Steps**     | 1. Vo gạo sạch, cho vào nồi trong. 2. Thêm nước đến vạch "1". 3. Đặt nồi trong vào vỏ nồi. 4. Đóng nắp. 5. Cắm điện. 6. Nhấn nút "Cook" để bắt đầu nấu. 7. Chờ cho đến khi nồi tự chuyển sang chế độ "Warm". 8. Để ủ thêm 10 phút. 9. Mở nắp và kiểm tra cơm. |
+| **Expected**  | Cơm chín đều, hạt mềm, không bị sống hoặc khê; nồi tự động chuyển sang chế độ giữ ấm (đèn "Warm" sáng). |
+| **Actual**    | *(Ghi lại kết quả thực tế khi kiểm thử)* |
+| **Verdict**   | ☐ Pass &nbsp;&nbsp; ☐ Fail |
+
+---
+
+### TC-02 – Nấu cơm ở dung tích tối thiểu (0.5 cup / ~75g) – Boundary Value
+
+| Trường        | Nội dung |
+|---------------|----------|
+| **Objective** | Kiểm tra hành vi của nồi khi nấu với lượng gạo tối thiểu (giá trị biên dưới) |
+| **Input**     | Gạo trắng 0.5 cup (~75g), nước thêm khoảng 100ml, nguồn điện 220V |
+| **Steps**     | 1. Cho 0.5 cup gạo đã vo vào nồi trong. 2. Thêm nước khoảng 100ml (ước lượng). 3. Đặt nồi vào vỏ, đóng nắp, cắm điện. 4. Nhấn "Cook". 5. Quan sát quá trình nấu và thời gian chuyển sang "Warm". 6. Kiểm tra cơm sau khi chuyển ấm. |
+| **Expected**  | Nồi vẫn nấu và chuyển sang "Warm" bình thường; cơm chín đều dù lượng ít; thời gian nấu ngắn hơn so với TC-01. |
+| **Actual**    | *(Ghi lại kết quả thực tế khi kiểm thử)* |
+| **Verdict**   | ☐ Pass &nbsp;&nbsp; ☐ Fail |
+
+---
+
+### TC-03 – Nấu cơm ở dung tích tối đa (3 cups / ~450g) – Boundary Value
+
+| Trường        | Nội dung |
+|---------------|----------|
+| **Objective** | Kiểm tra hành vi của nồi khi nấu ở mức gạo tối đa theo thông số kỹ thuật |
+| **Input**     | Gạo trắng 3 cups (~450g), nước theo vạch "3" trên nồi, nguồn điện 220V |
+| **Steps**     | 1. Vo gạo, cho 3 cups vào nồi. 2. Thêm nước đến vạch "3". 3. Đặt nồi vào vỏ, đóng nắp, cắm điện. 4. Nhấn "Cook". 5. Quan sát trong quá trình nấu xem có bị tràn hơi/nước không. 6. Chờ tự động chuyển "Warm". 7. Kiểm tra kết quả. |
+| **Expected**  | Nồi nấu đúng công suất; không có tràn nước hoặc hơi bất thường; cơm chín đều. |
+| **Actual**    | *(Ghi lại kết quả thực tế khi kiểm thử)* |
+| **Verdict**   | ☐ Pass &nbsp;&nbsp; ☐ Fail |
+
+---
+
+### TC-04 – Kiểm tra chức năng giữ ấm (Keep Warm)
+
+| Trường        | Nội dung |
+|---------------|----------|
+| **Objective** | Xác minh cơm được duy trì nhiệt độ ấm thích hợp (60–70°C) sau khi chuyển sang chế độ Warm |
+| **Input**     | Cơm đã nấu chín (từ TC-01), nhiệt kế thực phẩm |
+| **Steps**     | 1. Sau khi TC-01 hoàn tất và nồi chuyển sang "Warm". 2. Để nồi giữ ấm trong 1 giờ mà không mở nắp. 3. Sau 1 giờ, mở nắp và quan sát. 4. Kiểm tra chất lượng cơm (không bị khô, không bị đóng vảy). |
+| **Expected**  | Nồi giữ ấm được 1 giờ; cơm không bị khô hay đổi màu sau 1 giờ giữ ấm. |
+| **Actual**    | *(Ghi lại kết quả thực tế khi kiểm thử)* |
+| **Verdict**   | ☐ Pass &nbsp;&nbsp; ☐ Fail |
+
+---
+
+### TC-05 – Tự động ngắt điện khi cơm chín (Auto Cut-off)
+
+| Trường        | Nội dung |
+|---------------|----------|
+| **Objective** | Xác minh cơ chế tự động chuyển chế độ từ "Cook" sang "Warm" khi nhiệt độ đạt ngưỡng |
+| **Input**     | Gạo 1 cup, nước vạch "1", nguồn điện 220V, đồng hồ bấm giờ |
+| **Steps**     | 1. Nấu cơm như TC-01. 2. Quan sát đèn trạng thái trong suốt quá trình nấu. 3. Dùng đồng hồ ghi lại thời điểm đèn "Cook" tắt và đèn "Warm" bật. 4. Xác nhận không có can thiệp thủ công nào. |
+| **Expected**  | Nồi tự động chuyển từ "Cook" sang "Warm" sau khoảng 20–30 phút; đèn trạng thái thay đổi tương ứng; không cần tác động thủ công. |
+| **Actual**    | *(Ghi lại kết quả thực tế khi kiểm thử)* |
+| **Verdict**   | ☐ Pass &nbsp;&nbsp; ☐ Fail |
+
+---
+
+### TC-06 – Kiểm tra an toàn khi không có gạo/nước (Dry Run Safety)
+
+| Trường        | Nội dung |
+|---------------|----------|
+| **Objective** | Kiểm tra cơ chế bảo vệ của nồi khi bật nấu mà không có gạo/nước (tình huống nguy hiểm) |
+| **Input**     | Nồi không chứa gạo hoặc nước, nguồn điện 220V |
+| **Steps**     | 1. Đặt nồi trong (rỗng) vào vỏ nồi. 2. Đóng nắp, cắm điện. 3. Nhấn "Cook". 4. Quan sát: theo dõi liên tục trong 5 phút. 5. Ghi lại nhiệt độ bên ngoài vỏ nồi bằng nhiệt kế hồng ngoại. 6. Ghi nhận thời điểm nồi chuyển sang "Warm" (nếu có). |
+| **Expected**  | Nồi phát hiện không có tải nhiệt, tự động chuyển sang "Warm" rất nhanh (dưới 2 phút) mà không gây cháy hoặc biến dạng; nhiệt độ vỏ ngoài không vượt quá 70°C. |
+| **Actual**    | *(Ghi lại kết quả thực tế khi kiểm thử)* |
+| **Verdict**   | ☐ Pass &nbsp;&nbsp; ☐ Fail |
+
+---
+
+### TC-07 – Kiểm tra sự ổn định của nắp và van thoát hơi
+
+| Trường        | Nội dung |
+|---------------|----------|
+| **Objective** | Xác minh nắp đậy kín và van thoát hơi hoạt động đúng, không để hơi nước phun ra ngoài bất thường |
+| **Input**     | Gạo 2 cups, nước theo vạch "2", nguồn điện 220V |
+| **Steps**     | 1. Cho gạo và nước vào nồi. 2. Đóng nắp chắc chắn. 3. Nhấn "Cook". 4. Quan sát van thoát hơi trên nắp trong suốt quá trình nấu. 5. Kiểm tra xem hơi có bị phun mạnh hoặc nước có trào ra xung quanh nắp không. |
+| **Expected**  | Hơi nước thoát ra từ van thoát hơi một cách điều tiết, không có nước trào ra mép nắp; nắp không bị bật trong quá trình nấu. |
+| **Actual**    | *(Ghi lại kết quả thực tế khi kiểm thử)* |
+| **Verdict**   | ☐ Pass &nbsp;&nbsp; ☐ Fail |
+
+---
+
+### TC-08 – Kiểm tra nhiệt độ bề mặt ngoài vỏ nồi khi hoạt động (An toàn nhiệt)
+
+| Trường        | Nội dung |
+|---------------|----------|
+| **Objective** | Đảm bảo vỏ ngoài của nồi không đạt đến nhiệt độ gây bỏng khi chạm vào trong quá trình nấu |
+| **Input**     | Gạo 1 cup, nước vạch "1", nhiệt kế hồng ngoại (IR), nguồn điện 220V |
+| **Steps**     | 1. Khởi động nấu cơm như TC-01. 2. Sau 15 phút (giữa chu kỳ nấu), dùng nhiệt kế hồng ngoại đo nhiệt độ tại: thân vỏ trước, thân vỏ sau, tay cầm, nắp đậy. 3. Ghi lại tất cả các giá trị. |
+| **Expected**  | Thân vỏ và tay cầm không vượt quá 60°C; nắp đậy không vượt quá 80°C (theo tiêu chuẩn an toàn điện gia dụng IEC 60335). |
+| **Actual**    | *(Ghi lại kết quả thực tế khi kiểm thử)* |
+| **Verdict**   | ☐ Pass &nbsp;&nbsp; ☐ Fail |
+
+---
+
+### TC-09 – Kiểm tra nấu với nước quá nhiều (Overflow Test)
+
+| Trường        | Nội dung |
+|---------------|----------|
+| **Objective** | Kiểm tra hành vi của nồi khi lượng nước vượt quá mức khuyến nghị tối đa |
+| **Input**     | Gạo 1 cup, nước vượt vạch "1" khoảng 30% (thêm ~60ml so với vạch), nguồn điện 220V |
+| **Steps**     | 1. Cho gạo vào nồi. 2. Thêm nước nhiều hơn 30% so với vạch khuyến nghị. 3. Đóng nắp, cắm điện, nhấn "Cook". 4. Quan sát liên tục trong toàn bộ chu kỳ nấu. 5. Kiểm tra xem nước có tràn qua van không. |
+| **Expected**  | Nồi nấu chín nhưng cơm có thể nhão; nước có thể thoát qua van thoát hơi nhưng không phun mạnh ra ngoài; không gây nguy hiểm điện. |
+| **Actual**    | *(Ghi lại kết quả thực tế khi kiểm thử)* |
+| **Verdict**   | ☐ Pass &nbsp;&nbsp; ☐ Fail |
+
+---
+
+### TC-10 – Kiểm tra khả năng cắm/rút điện an toàn trong quá trình nấu
+
+| Trường        | Nội dung |
+|---------------|----------|
+| **Objective** | Xác minh nồi không gây ra tia lửa điện, rò rỉ dòng điện hoặc hư hỏng khi rút phích cắm đột ngột trong lúc đang nấu |
+| **Input**     | Gạo 1 cup, nước vạch "1", nguồn điện 220V |
+| **Steps**     | 1. Bắt đầu nấu cơm. 2. Sau 10 phút, rút phích cắm ra khỏi ổ điện. 3. Quan sát: kiểm tra tia lửa, mùi khét, âm thanh bất thường. 4. Cắm lại điện sau 30 giây. 5. Nhấn "Cook" lại để tiếp tục nấu. 6. Chờ đến khi cơm chín và kiểm tra kết quả. |
+| **Expected**  | Không có tia lửa điện hay mùi khét khi rút phích; sau khi cắm lại, nồi hoạt động bình thường và cơm vẫn chín được. |
+| **Actual**    | *(Ghi lại kết quả thực tế khi kiểm thử)* |
+| **Verdict**   | ☐ Pass &nbsp;&nbsp; ☐ Fail |
+
+---
+
+### TC-11 – Kiểm tra tính dễ vệ sinh của nồi trong (Non-stick Coating)
+
+| Trường        | Nội dung |
+|---------------|----------|
+| **Objective** | Đánh giá khả năng làm sạch lớp chống dính của nồi trong sau khi nấu |
+| **Input**     | Nồi sau khi nấu xong TC-01, nước ấm, miếng bọt biển mềm |
+| **Steps**     | 1. Lấy nồi trong ra sau khi cơm đã được múc hết. 2. Để nguội 5 phút. 3. Tráng nước ấm vào nồi trong. 4. Dùng miếng bọt biển mềm lau nhẹ bên trong. 5. Quan sát xem cơm thừa có bám dính không. 6. Tráng lại bằng nước sạch và kiểm tra. |
+| **Expected**  | Cơm thừa và tinh bột không bám chặt vào lớp chống dính; làm sạch dễ dàng chỉ bằng miếng bọt biển mềm và nước ấm, không cần chà mạnh. |
+| **Actual**    | *(Ghi lại kết quả thực tế khi kiểm thử)* |
+| **Verdict**   | ☐ Pass &nbsp;&nbsp; ☐ Fail |
+
+---
+
+### TC-12 – Kiểm tra tính nhất quán khi nấu liên tiếp nhiều lần (Consistency Test)
+
+| Trường        | Nội dung |
+|---------------|----------|
+| **Objective** | Xác minh nồi cho kết quả nấu nhất quán sau nhiều lần sử dụng liên tiếp (3 lần) |
+| **Input**     | Gạo trắng 1 cup, nước vạch "1" (lặp lại 3 lần với cùng input), nguồn điện 220V |
+| **Steps**     | 1. Thực hiện nấu cơm theo quy trình TC-01 (lần 1). 2. Ghi lại thời gian nấu, chất lượng cơm. 3. Làm nguội nồi 15 phút. 4. Lặp lại với cùng lượng gạo và nước (lần 2). 5. Ghi lại kết quả lần 2. 6. Lặp lại lần 3. 7. So sánh kết quả ba lần. |
+| **Expected**  | Thời gian nấu giữa 3 lần chênh nhau không quá ±2 phút; chất lượng cơm (độ chín, độ mềm) nhất quán giữa các lần; không có dấu hiệu suy giảm hiệu năng. |
+| **Actual**    | *(Ghi lại kết quả thực tế khi kiểm thử)* |
+| **Verdict**   | ☐ Pass &nbsp;&nbsp; ☐ Fail |
+
+---
+
+### TC-13 – Kiểm tra khi hạt gạo/cơm rơi xuống vỏ nồi cơm điện
+
+| Trường        | Nội dung |
+|---------------|----------|
+| **Objective** | Kiểm tra xem hạt gạo/cơm rơi xuống vỏ nồi cơm điện có an toàn không |
+| **Input**     | Vài hạt gạo/cơm dưới đáy nồi, nguồn điện 220V |
+| **Steps**     | 1. Cho gạo vào nồi. 2. Đóng nắp, nhấn nút "Cook". 3. Để nồi tự nấu cho đến khi hoàn thành chu trình và chuyển sang chế độ "Warm". 4. Sau khi nấu xong, lấy gạo ra đĩa, chờ 10 phút cho nguội, sau đó nghiêng nồi và gõ nhẹ để hạt cơm rơi ra khỏi vỏ nồi. 5. Kiểm tra vỏ nồi. |
+| **Expected**  | Không có dấu hiệu cháy, nổ, chập điện hay bất thường nào; vỏ nồi sạch, dễ dàng lau chùi. Hạt gạo/cơm rơi xuống sẽ bị cháy nhưng không ảnh hưởng đến hoạt động của nồi. |
+| **Actual**    | *(Ghi lại kết quả thực tế khi kiểm thử)* |
+| **Verdict**   | ☐ Pass &nbsp;&nbsp; ☐ Fail |
+
+# AI Audit Report
+# AI Critique
+# Mandatory Disclosure
