@@ -1384,7 +1384,24 @@ AI rất mạnh trong việc phản hồi nhanh chóng các yêu cầu về cấ
 ## **6\. Mandatory Disclosure (dán nguyên văn)**
 
 *"\[11 Test case đầu tiên của phần - Requirement 3 - Test cases for ONE physical product] này được sinh phiên bản đầu bởi \[Claude Sonnet 4.6\]; tôi đã rà soát và chỉnh sửa \[TC-01 và TC02\], bổ sung \[kết quả thực thi \]; \[TC-12, TC-13, TC-14, TC-15\] do tôi tự viết.\ [MindMap] này được sinh phiên bản đầu bởi \[Gemini 3.1 Pro\]. \[Ảnh hưởng của AI đến các công việc ở yêu cầu 1] này được sinh phiên bản đầu bởi \[ChatGPT 5.5 free\]. [HW01_Testing.xlsx] này được sinh phiên bản đầu bởi \[Claude Sonnet 4.6\]  AI Audit Report chi tiết đính kèm ở Phụ lục A. Tôi cam đoan không dùng AI để sinh bất kỳ artifact nào thuộc danh mục bị cấm."*
+## **7\. 3 lỗi AI tạo mind map
 
+1. Phân loại sai nghiệp vụ trong "CI/CD Integration"
+Vị trí: Nhánh "1. CORE RESPONSIBILITIES" > mục "6. CI/CD Integration".
+Lỗi: Mục này liệt kê các thành phần là "Dev, BA, PO, Shift I/CD".
+Giải thích: "Dev, BA, PO" là các vai trò (Roles) trong đội ngũ phát triển phần mềm, hoàn toàn không phải là các công việc hay công cụ thuộc nghiệp vụ tích hợp liên tục (CI/CD). Thêm vào đó, "Shift I/CD" là một thuật ngữ không tồn tại trong ngành (rất có thể AI tạo ảnh đã viết sai hoặc ghép nhầm từ chiến lược "Shift Left Testing" với "CI/CD").
+2. Trùng lặp quy trình và sai thuật ngữ công cụ API
+Vị trí: Nhánh "1. CORE RESPONSIBILITIES".
+Lỗi: Số thứ tự 5 bị lặp lại hai lần với cùng một ý nghĩa nghiệp vụ: "5. API Testing" và "5. Test API". Ngoài ra, công cụ liệt kê dưới API Testing là "RESTVII".
+Giải thích: Việc đánh cùng số thứ tự cho hai nhánh có cùng chức năng thể hiện sự thiếu logic trong cấu trúc nghiệp vụ cốt lõi. Bên cạnh đó, "RESTVII" không phải là một công cụ kiểm thử API chuẩn; đây có thể là lỗi "ảo giác" (hallucination) của AI khi cố viết tên framework REST Assured hoặc khái niệm REST API.
+3. Lẫn lộn giữa Công cụ, Hạ tầng và Cấp bậc chức danh
+Vị trí: Nhánh "4. TOOLS & TECHNOLOGIES".
+Lỗi:
+Có một node lơ lửng tên là "4. Senior" trỏ ra từ cụm nhánh Tools.
+Trong nhóm "DATABASES & INFRASTRUCTURE" lại liệt kê GitLab và Jenkiter.
+Giải thích:
+"Senior" là một cấp bậc/chức danh (Role/Level), không phải là công cụ công nghệ, việc xếp vào nhánh Tools là sai hoàn toàn.
+GitLab và Jenkins (bị viết sai thành Jenkiter) là các công cụ quản lý mã nguồn (Source Control) và CI/CD. Chúng không thuộc nhóm Cơ sở dữ liệu (Databases).
 ## **Mẫu Đánh giá & Tự Đánh giá**
 
 *The AI-first rubric below replaces the previous rubric. Total \= 100 points. Every HW has an 'AI Compliance' column worth 15–20 points – missing the Audit Report / prompt log / critique forfeits the ENTIRE column.*
